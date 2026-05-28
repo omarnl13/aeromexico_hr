@@ -6,6 +6,17 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/*
+ * Technical Test - Employee Management Service
+ *
+ * Author: Omar Navarro
+ * Role: Java Technical Lead
+ * Date: 2026
+ *
+ * Description:
+ * REST controller responsible for exposing employee management endpoints.
+ */
+
 public class EmployeeResponse {
 
     private Long id;

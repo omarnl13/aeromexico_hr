@@ -7,6 +7,17 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
+/*
+ * Technical Test - Employee Management Service
+ *
+ * Author: Omar Navarro
+ * Role: Java Technical Lead
+ * Date: 2026
+ *
+ * Description:
+ * REST controller responsible for exposing employee management endpoints.
+ */
+
 public interface EmployeeJpaRepository extends JpaRepository<EmployeeEntity, Long> {
 
     Optional<EmployeeEntity> findByIdAndActiveTrue(Long id);

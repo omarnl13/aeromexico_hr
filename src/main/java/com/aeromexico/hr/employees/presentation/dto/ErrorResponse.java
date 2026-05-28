@@ -3,6 +3,17 @@ package com.aeromexico.hr.employees.presentation.dto;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/*
+ * Technical Test - Employee Management Service
+ *
+ * Author: Omar Navarro
+ * Role: Java Technical Lead
+ * Date: 2026
+ *
+ * Description:
+ * REST controller responsible for exposing employee management endpoints.
+ */
+
 public class ErrorResponse {
 
     private LocalDateTime timestamp;

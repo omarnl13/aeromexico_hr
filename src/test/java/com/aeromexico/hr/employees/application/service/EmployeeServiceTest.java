@@ -32,6 +32,18 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+/*
+ * Technical Test - Employee Management Service
+ *
+ * Author: Omar Navarro
+ * Role: Java Technical Lead
+ * Date: 2026
+ *
+ * Description:
+ * REST controller responsible for exposing employee management endpoints.
+ */
+
+
 @ExtendWith(MockitoExtension.class)
 class EmployeeServiceTest {
 

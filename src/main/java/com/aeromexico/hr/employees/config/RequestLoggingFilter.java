@@ -12,6 +12,17 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
 import java.util.Collections;
 
+/*
+ * Technical Test - Employee Management Service
+ *
+ * Author: Omar Navarro
+ * Role: Java Technical Lead
+ * Date: 2026
+ *
+ * Description:
+ * REST controller responsible for exposing employee management endpoints.
+ */
+
 @Component
 public class RequestLoggingFilter extends OncePerRequestFilter {
 
